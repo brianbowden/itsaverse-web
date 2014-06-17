@@ -14,6 +14,9 @@ group :production do
   gem 'pg'
 end
 
+# Tesseract
+gem 'tesseract-ocr', :git => 'git://github.com/meh/ruby-tesseract-ocr.git'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
