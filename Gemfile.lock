@@ -40,6 +40,12 @@ GEM
     builder (3.1.4)
     call-me (0.0.2.3)
       refining
+    capistrano (2.15.5)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -54,6 +60,7 @@ GEM
       ffi
     ffi-inline (0.0.4.3)
       ffi (>= 0.4.0)
+    highline (1.6.21)
     hike (1.2.3)
     i18n (0.6.9)
     iso-639 (0.2.4)
@@ -71,6 +78,13 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.9.0)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.9.1)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
     nginx (0.0.2)
     pg (0.17.1)
     polyglot (0.3.4)
@@ -95,6 +109,8 @@ GEM
     rdoc (4.1.1)
       json (~> 1.4)
     refining (0.0.5.5)
+    rvm-capistrano (1.5.3)
+      capistrano (~> 2.15.4)
     sass (3.2.15)
     sass-rails (4.0.2)
       railties (>= 4.0.0, < 5.0)
@@ -136,12 +152,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  capistrano
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
   nginx
   pg
   rails (= 4.0.2)
+  rvm-capistrano
   sass-rails (~> 4.0.0)
   sdoc
   sqlite3
