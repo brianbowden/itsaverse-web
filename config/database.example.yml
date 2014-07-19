@@ -20,7 +20,7 @@ test:
 
 production:
   adapter: postgresql
-  database: db
+  database: itsaverse_production
   pool: 5
   port: 5432
   user: itsaverse
