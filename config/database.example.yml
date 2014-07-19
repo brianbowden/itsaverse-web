@@ -20,6 +20,8 @@ test:
 
 production:
   adapter: postgresql
+  encoding: unicode
+  host: localhost
   database: itsaverse_production
   pool: 5
   port: 5432
