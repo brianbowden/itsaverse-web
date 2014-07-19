@@ -1,4 +1,4 @@
-root = "/home/dev/apps/Itsaverse-Web/current"
+root = "/home/dev/apps/itsaverse-web/current"
 working_directory root
 pid "#{root}/tmp/pids/unicorn.pid"
 stderr_path "#{root}/log/unicorn.log"
