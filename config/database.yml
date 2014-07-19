@@ -20,9 +20,9 @@ test:
 
 production:
   adapter: postgresql
-  database: db
+  database: itsaverse_production
   pool: 5
   port: 5432
-  user: root
-  password: CNA269cO9tggT172
+  user: itsaverse
+  password: beetles
   timeout: 5000
